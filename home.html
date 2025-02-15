@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark theme-color">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Website</a>
+            <a href="admin.html" class="btn btn-light">Admin Panel</a>
+        </div>
+    </nav>
+
+    <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video class="d-block w-100" autoplay loop muted>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="carousel-item">
+                <video class="d-block w-100" autoplay loop muted>
+                    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <section class="text-center py-4 theme-color">
+        <h2>Follow Us</h2>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <!-- Instagram Card -->
+                <div class="col-md-3 mb-4">
+                    <div class="card text-center p-4">
+                        <div class="card-body">
+                            <i class="fab fa-instagram fa-3x text-danger"></i>
+                            <h5 class="card-title mt-3">Instagram</h5>
+                            <a href="#" class="btn btn-danger">Follow</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Facebook Card -->
+                <div class="col-md-3 mb-4">
+                    <div class="card text-center p-4">
+                        <div class="card-body">
+                            <i class="fab fa-facebook fa-3x text-primary"></i>
+                            <h5 class="card-title mt-3">Facebook</h5>
+                            <a href="#" class="btn btn-primary">Like</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- YouTube Card -->
+                <div class="col-md-3 mb-4">
+                    <div class="card text-center p-4">
+                        <div class="card-body">
+                            <i class="fab fa-youtube fa-3x text-danger"></i>
+                            <h5 class="card-title mt-3">YouTube</h5>
+                            <a href="#" class="btn btn-danger">Subscribe</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- WhatsApp Card -->
+                <div class="col-md-3 mb-4">
+                    <div class="card text-center p-4">
+                        <div class="card-body">
+                            <i class="fab fa-whatsapp fa-3x text-success"></i>
+                            <h5 class="card-title mt-3">WhatsApp</h5>
+                            <a href="#" class="btn btn-success">Chat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="container py-4">
+        <h2 class="text-center">Our Location</h2>
+        <div class="ratio ratio-16x9">
+            <iframe src="https://maps.google.com/maps?q=New+York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"></iframe>
+        </div>
+    </section>
+
+    <section class="container py-4 text-center">
+        <h2>About Us</h2>
+        <p>We are a company that provides the best services. Stay connected with us.</p>
+    </section>
+    <footer class="text-center py-3 theme-color">&copy; 2025 My Website</footer>
+
+    <script src="theme.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

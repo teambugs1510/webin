@@ -1,0 +1,39 @@
+:root {
+    --main-color: #ff69b4;
+    --text-color: #ffffff;
+    --bg-color: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.theme-color {
+    background-color: var(--main-color) !important;
+    color: var(--text-color) !important;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin: 10px;
+    color: var(--text-color);
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+.card i {
+    transition: transform 0.3s ease;
+}
+.card:hover i {
+    transform: rotate(15deg);
+}
